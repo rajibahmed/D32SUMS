@@ -72,7 +72,7 @@
             <key>adcore</key>
             <string>..\..\adres\app\webroot\js\adres.core.js</string>
             <key>add</key>
-            <string>..\..\BengalTours\admin\add_tour.php</string>
+            <string>views\pages\add.ctp</string>
             <key>add.ctp</key>
             <string>..\..\adres\app\views\groups\add.ctp</string>
             <key>add_</key>
@@ -91,6 +91,8 @@
             <string>..\..\BengalTours\admin\add_tour.php</string>
             <key>add_tou</key>
             <string>..\..\BengalTours\admin\add_tour.php</string>
+            <key>addctp</key>
+            <string>views\teachers\add.ctp</string>
             <key>addhotel</key>
             <string>..\..\BengalTours\admin\add_hotel.php</string>
             <key>addre</key>
@@ -347,6 +349,8 @@
             <string>..\..\BengalTours\admin\edit_hotel.php</string>
             <key>edit.c</key>
             <string>..\..\adres\app\views\field_types\edit.ctp</string>
+            <key>edit.ctp</key>
+            <string>views\pages\edit.ctp</string>
             <key>edit_</key>
             <string>..\..\BengalTours\admin\edit_hotel.php</string>
             <key>edit_de</key>
@@ -603,6 +607,8 @@
             <string>..\..\rivality\app\views\users\register.ctp</string>
             <key>regs</key>
             <string>..\..\adres\app\views\users\register.ctp</string>
+            <key>rou</key>
+            <string>config\routes.php</string>
             <key>roups</key>
             <string>..\..\adres\app\controllers\groups_controller.php</string>
             <key>rout</key>
