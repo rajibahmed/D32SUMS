@@ -63,6 +63,19 @@ class PagesController extends AppController {
 		$this->Session->setFlash(__('The Page could not be deleted. Please, try again.', true));
 		$this->redirect(array('action' => 'index'));
 	}
+	
+	/*-------------------------------------------------------------
+	| For front end of the website
+	|
+	|--------------------------------------------------------------*/
 
+	public function show($permalink=null)
+	{
+		$page = $this->Page->find('first',array(
+			'contain'=>array('Navigation'=>array('Menus')),
+			'conditions'=>array('Page.permalink'=>$permalink)));
+		$this->set(compact('page'));
+	}
+	
 }
 ?>

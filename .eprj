@@ -170,9 +170,9 @@
             <key>app_model</key>
             <string>..\..\adres\app\app_model.php</string>
             <key>appco</key>
-            <string>..\..\adres\app\app_controller.php</string>
+            <string>app_controller.php</string>
             <key>appcon</key>
-            <string>..\..\adres\app\app_controller.php</string>
+            <string>app_controller.php</string>
             <key>appcont</key>
             <string>..\..\adres\app\app_controller.php</string>
             <key>appcontr</key>
@@ -327,6 +327,8 @@
             <string>..\..\adres\app\views\layouts\default.ctp</string>
             <key>default.</key>
             <string>..\..\adres\app\views\layouts\default.ctp</string>
+            <key>default.ctp</key>
+            <string>views\layouts\default.ctp</string>
             <key>defaultcss</key>
             <string>..\..\adres\app\webroot\css\adres.default.css</string>
             <key>defaultss</key>
@@ -559,6 +561,8 @@
             <string>..\..\old_adres\trunk\database\mysqlCreate.sql</string>
             <key>navi</key>
             <string>..\..\adres\app\views\elements\main_navigation.ctp</string>
+            <key>navigation.php</key>
+            <string>models\navigation.php</string>
             <key>pagin</key>
             <string>..\..\adres\app\views\elements\paginator.ctp</string>
             <key>paginator</key>
@@ -636,7 +640,7 @@
             <key>shoe</key>
             <string>..\..\adres\app\views\users\json\show_details.ctp</string>
             <key>show</key>
-            <string>..\..\adres\app\views\users\show_contact_panel.ctp</string>
+            <string>views\pages\show.ctp</string>
             <key>show_</key>
             <string>..\..\adres\app\views\users\json\show_record.ctp</string>
             <key>show_c</key>

@@ -3,10 +3,10 @@ class Page extends AppModel {
 
 	var $name = 'Page';
 	
-	var $belongsTo = array(
+	var $hasAndBelongsToMany = array(
 		'Navigation' => array(
 			'className' => 'Navigation', 
-			'foreignKey' => 'navigation_id'
+			'foreignKey' => 'page_id'
 	));
 
 }
